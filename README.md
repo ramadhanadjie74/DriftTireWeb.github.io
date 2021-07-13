@@ -3,6 +3,7 @@ Project ini saya kerjakan untuk melatih web-dev skill saya, terutama bagian fron
 Pada web ini, menggunakan Javascript, CSS, dan HTML.
 Saat web diakses, akan ada animasi fadeIn informasi web yang ditampilkan. 
 saat user berinteraksi dengan tombol search, sebuah loading screen akan tampil secara perlahan dan akan menghilang setelah 3d
+website ini juga interaktif. Tampilan web dapat menyesuaikan dengan media yang digunakan.
 masih ada yang perlu disempurnakan lagi untuk menjadi web ini lebih dinamis dan lebih fungsional.
 Perkembangan selanjutnya akan dilakukan!
 Terimakasih
