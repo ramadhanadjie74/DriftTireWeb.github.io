@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <div class="overlay" id="overlay">
+        <h3>rolling...</h3>
+    </div>
+    <div class="hero-bg">
+        <section class="top">
+            <header>
+                <a href="#">kansei.drifto</a>
+            </header>
+            <h1><span>The Burnout</span>Drifting Tires</h1>
+            <p>“If you aren't continuously looking up and putting in the effort, you can't reach the next level.” - Dr. Toshiya Joushima</p>
+            
+            <div class="form-container">
+                <form action="">
+                    <div class="from-left">
+                    <label for="drifter-id">Enter your drifter ID:</label>
+                    <input type="text" name="drifter-id" id="drifter-id">
+                    <p>Example: “12as34d5678”</p>
+                    </div>
+                    <input type="button" value="GET YOUR WHEELS" id="cta-btn">
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <section class="unique">
+        <div class="right-col">
+            <h2>UNIQUE. PERSONALIZE.</h2>
+            <p>The tyres you choose are one of the most important factors in drifting. We ask tyre experts MyTyres what to look for when considering the perfect drift tyre. <br><br>Drifting is merciless to tyres. This motorsport requires the driver to squeeze the maximum possible speed when he enters and exits corners, which puts excessive strain on tyres as well as wheels, brakes, steering, suspension, and clutch.</p>
+        </div>
+        <img src="images/drift.jpg" alt="Corner Drifting">
+    </section>
+
+    <script>
+
+        let btn = document.getElementById("cta-btn")
+        let overlay = document.getElementById("overlay")
+        
+
+        btn.addEventListener('click', () => {
+            overlay.style.display = 'grid';
+            overlay.classList.add('animate-overlay')
+            
+        })
+
+    </script>
+
+</body>
+</html>
